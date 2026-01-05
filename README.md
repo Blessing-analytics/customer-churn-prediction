@@ -132,9 +132,9 @@ pip install -r requirements.txt
 
 Run notebooks in order:
 
-01_EDA.ipynb
-02_Feature_Engineering.ipynb
-03_Modeling.ipynb
+01_EDA.ipynb  
+02_Feature_Engineering.ipynb  
+03_Modeling.ipynb  
 
 ---
 
