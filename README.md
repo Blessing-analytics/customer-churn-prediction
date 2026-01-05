@@ -1,6 +1,6 @@
 # Customer Churn Prediction (Telecom Dataset)
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn occurs when customers stop using a company’s product or service.  
 In the telecom industry, even a small increase in churn can lead to significant revenue loss.
@@ -10,7 +10,7 @@ The goal is to identify **customers at high risk of leaving** so businesses can 
 
 ---
 
-## 🎯 Business Objective
+## Business Objective
 
 - Predict whether a customer is likely to churn
 - Identify patterns and behaviors linked to churn
@@ -21,25 +21,25 @@ The goal is to identify **customers at high risk of leaving** so businesses can 
 
 ## 🗂️ Project Structure
 
-customer-churn-prediction/
+customer-churn-prediction/  
 │
-├── data/
-│ └── telco_TS.csv
+├── data/  
+│ └── telco_TS.csv  
 │
-├── notebooks/
-│ ├── 01_EDA.ipynb
-│ ├── 02_Feature_Engineering.ipynb
-│ └── 03_Modeling.ipynb
+├── notebooks/  
+│ ├── 01_EDA.ipynb  
+│ ├── 02_Feature_Engineering.ipynb  
+│ └── 03_Modeling.ipynb  
 │
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── .gitattributes
+├── README.md  
+├── requirements.txt  
+├── .gitignore  
+└── .gitattributes  
 
 
 ---
 
-## 🔍 Dataset
+## Dataset
 
 - **Source:** Telecom customer dataset
 - **Target Variable:** `Churn`  
@@ -53,9 +53,9 @@ customer-churn-prediction/
 
 ---
 
-## 🧠 Project Workflow
+## Project Workflow
 
-### 1️⃣ Exploratory Data Analysis (EDA)
+### 1. Exploratory Data Analysis (EDA)
 - Understand customer demographics and service usage
 - Analyze churn distribution and imbalance
 - Explore relationships between features and churn
@@ -65,7 +65,7 @@ customer-churn-prediction/
 
 ---
 
-### 2️⃣ Feature Engineering
+### 2. Feature Engineering
 - Encode categorical variables using One-Hot Encoding
 - Separate features (`X`) and target (`y`)
 - Prepare data for machine learning models
@@ -76,7 +76,7 @@ Machine learning models require numerical, well-structured inputs to perform opt
 
 ---
 
-### 3️⃣ Modeling
+### 3. Modeling
 - Train/Test split with stratification to preserve churn distribution
 - Feature scaling for better convergence
 - Logistic Regression used as a baseline model
@@ -107,7 +107,7 @@ In churn prediction, **recall is more important than accuracy** — missing a ch
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 - Python
 - Pandas & NumPy
@@ -123,15 +123,20 @@ Clone the repository:
 ```bash
 git clone https://github.com/Blessing-analytics/customer-churn-prediction.git
 cd customer-churn-prediction
+```
 
 Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 Run notebooks in order:
 
 01_EDA.ipynb
 02_Feature_Engineering.ipynb
 03_Modeling.ipynb
+
+---
 
 ## 📈 Key Insights
 
@@ -142,19 +147,9 @@ Run notebooks in order:
 
 ---
 
-## 🚀 Future Improvements
-
-- Experiment with tree-based models such as Random Forest and XGBoost.
-- Handle class imbalance using SMOTE or class-weighted modeling techniques.
-- Improve model interpretability using SHAP values.
-- Deploy the model as an API or interactive dashboard.
-- Apply cost-sensitive optimization to reflect real-world business impact.
-
----
-
 ## 👤 Author
 
-**Blessing**  
+**Atoyebi Simon Blessing**  
 Aspiring Data Analyst | Python | SQL | Machine Learning  
 📎 GitHub: https://github.com/Blessing-analytics  
 
