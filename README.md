@@ -24,12 +24,12 @@ The goal is to identify **customers at high risk of leaving** so businesses can 
 customer-churn-prediction/  
 │
 ├── data/  
-│ └── telco_TS.csv  
+│   └── telco_TS.csv  
 │
 ├── notebooks/  
-│ ├── 01_EDA.ipynb  
-│ ├── 02_Feature_Engineering.ipynb  
-│ └── 03_Modeling.ipynb  
+│   ├── 01_EDA.ipynb  
+│   ├── 02_Feature_Engineering.ipynb  
+│   └── 03_Modeling.ipynb  
 │
 ├── README.md  
 ├── requirements.txt  
