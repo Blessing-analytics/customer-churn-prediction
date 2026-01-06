@@ -112,7 +112,7 @@ In churn prediction, **recall is more important than accuracy** — missing a ch
 - Python
 - Pandas & NumPy
 - Scikit-learn
-- Matplotlib & Seaborn
+- Matplotlib
 - Jupyter Notebook
 
 ---
@@ -149,8 +149,8 @@ Run notebooks in order:
 
 ## 👤 Author
 
-**Atoyebi Simon Blessing**  
-Aspiring Data Analyst | Python | SQL | Machine Learning  
+**Atoyebi Simon Blessing (Blessing-analytics)**  
+Aspiring Data Analyst | Python | SQL  
 📎 GitHub: https://github.com/Blessing-analytics  
 
 ⭐ If you find this project useful, feel free to star the repository.
