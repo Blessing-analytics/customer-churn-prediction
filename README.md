@@ -1,4 +1,4 @@
-![Customer Churn Prediction Project](images/Customer Churn prediction.png)
+![alt text](<images/Customer Churn prediction.png>)
 
 # Customer Churn Prediction (Telecom Dataset)
 
