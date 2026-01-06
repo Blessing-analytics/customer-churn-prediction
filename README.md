@@ -150,7 +150,7 @@ Run notebooks in order:
 ## 👤 Author
 
 **Atoyebi Simon Blessing (Blessing-analytics)**  
-Aspiring Data Analyst | Python | SQL  
+Data Analyst | Python | SQL  
 📎 GitHub: https://github.com/Blessing-analytics  
 
 ⭐ If you find this project useful, feel free to star the repository.
